@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>JavaScript クラス学習サンプル</title>
+  <!-- CSSファイルの読み込み -->
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <header>
+    <h1>JavaScript クラス学習サンプル</h1>
+    <p>ブラウザの開発者ツール（コンソール）を開くと、より詳細なログを確認できます。</p>
+  </header>
+
+  <main>
+    <div class="controls">
+      <h2>操作パネル</h2>
+      <button id="btn-create-vehicle">1. Vehicleインスタンス作成</button>
+      <button id="btn-vehicle-move">2. Vehicleを動かす (move)</button>
+      <hr>
+      <button id="btn-create-car">3. Carインスタンス作成</button>
+      <button id="btn-car-move">4. Carを動かす (move)</button>
+      <button id="btn-car-refuel">5. Carに給油する (refuel)</button>
+      <hr>
+      <button id="btn-static-method">6. 静的メソッドの実行</button>
+      <hr>
+      <button id="btn-clear">結果をクリア</button>
+    </div>
+
+    <div class="output-area">
+      <h2>実行結果</h2>
+      <div id="output">
+        <p>操作パネルのボタンを押してください。</p>
+      </div>
+    </div>
+  </main>
+
+  <!-- JavaScriptファイルの読み込み -->
+  <script src="js/app.js"></script>
+</body>
+</html>
